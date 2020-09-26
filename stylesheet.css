@@ -1,4 +1,4 @@
-<head>
+<style>
         div.gallery {
             border: 1px solid #ccc;
         }
@@ -45,4 +45,4 @@
             display: table;
             clear: both;
         }
-    
+</style>    
