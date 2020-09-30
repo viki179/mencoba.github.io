@@ -360,60 +360,57 @@
 
         <p>Disini kami menyediakan banyak macam-macam HP dengan varian rasa berbeda, join dulu kuyy</p>
 
+        <style>
+            input[type=text],
+            select {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+        </style>
         <form action="/action_page.php">
             <fieldset>
-                <legend>BIODATA:</legend>
-                <label for="fname">Nama Panjang:</label><br>
+                <legend>BIODATA: </legend>
+                <label for="fname">Nama Panjang: </label><br>
                 <input type="text" id="fname" name="fname"><br>
-                <label for="lname">Nama Sapaan:</label><br>
+                <label for="lname">Nama Sapaan: </label><br>
                 <input type="text" id="lname" name="lname"><br>
-                <p>Asal Daerah:</p>
-
-                <form action="/action_page.php">
-                    <input list="browsers" name="browser">
-                    <datalist id="browsers">
-            <option value="Malang">
-            <option value="Jakarta">
-            <option value="Bandung">
-            <option value="Semarang">
-            <option value="Surabaya">
-          </datalist><br><br><br>
-                    <button style='font-size:24px'>Gabung <i class='fab fa-github'></i></button>
+                <label for="country">Kota</label>
+                <select id="country" name="country">
+                  <option value="australia">Malang</option>
+                  <option value="canada">Surabaya</option>
+                  <option value="usa">Semarang</option>
+                  <option value="usa">Bandung</option>
+                  <option value="usa">Jakarta</option>
+                  <option value="usa">Solo</option>
+                </select><br><br>
+                <button style='font-size:24px'>Gabung <i class='fab fa-github'></i></button>
             </fieldset>
-            </form>
+        </form>
     </body>
-
     <html>
 
     <body>
-        <p><strong>Penunjuk Waktu</strong></p>
-        <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
-     KLik Disini Untuk Melihat Waktu</button>
+        <p><strong>Penunjuk Waktu</strong></p> <button type="button" onclick="document.getElementById('demo').innerHTML = Date()"> KLik Disini Untuk Melihat Waktu</button>
         <p id="demo"></p>
     </body>
 
     </html>
-
     <div class="contact-form">
         <h3 class="section-title">Chat aku</h3>
         <p>Saran buat aku Intropeksi</p>
-        <!-- Add an <input> tag -->
-        <input>
-
+        <!-- Add an <input> tag --><input>
         <p>Kritik dan DOA</p>
-        <!-- Add a <textarea> tag -->
-        <textarea></textarea>
-
+        <!-- Add a <textarea> tag --><textarea></textarea>
         <p>Passwordnya</p>
-        <!-- Add an <input> tag -->
-        <input class="contact-submit" type="submit" value="Send"><br><br><br>
-
+        <!-- Add an <input> tag --><input class="contact-submit" type="submit" value="Send"><br><br><br>
 
         <body>
-            <p>Ada kejutan loo, KLIK Link di bawah!!!!:</p>
-            <a href="https://raw.githubusercontent.com/viki179/bagus.github.io/master/tipu.jpg">Link HP Gratis</a>
-        </body>
-
+            <p>Ada kejutan loo, KLIK Link di bawah!!!!: </p> <a href="https://raw.githubusercontent.com/viki179/bagus.github.io/master/tipu.jpg">Link HP Gratis</a> </body>
     </div>
 </div><br><br>
 
@@ -421,10 +418,10 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <!--Get your own code at fontawesome.com-->
-</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> </head>
 
-<body>
-
+<body> <i class="fa fa-spinner fa-pulse" style='font-size:48px;color:black'></i>
+    <i class="fa fa-refresh fa-spin" style='font-size:48px;color:black'></i>
     <i class='fab fa-github' style='font-size:48px;color:black'></i>
     <i class='fab fa-google' style='font-size:48px;color:black'></i>
     <i class='fas fa-mobile-alt' style='font-size:48px;color:black'></i>
@@ -440,7 +437,8 @@
     <i class='fab fa-google-play' style='font-size:48px;color:black'></i>
     <i class='fab fa-internet-explorer' style='font-size:48px;color:black'></i>
     <i class='fab fa-pinterest' style='font-size:48px;color:black'></i>
-
+    <i class="fa fa-refresh fa-spin" style='font-size:48px;color:black'></i>
+    <i class="fa fa-spinner fa-pulse" style='font-size:48px;color:black'></i>
 </body>
 
 <head>
@@ -453,7 +451,6 @@
             margin-right: 200px;
         }
     </style>
-
 </head>
 
 <body>
@@ -466,6 +463,32 @@
                 <li>Tentang kita</li>
             </ul>
         </div>
+    </div>
+</body>
+
+<head>
+    <style>
+        h1.inset {
+            border-style: inset;
+            text-align: center;
+        }
+        
+        #Animasi {
+            animation: mymove 2s infinite;
+        }
+        
+        @keyframes mymove {
+            50% {
+                text-shadow: 10px 20px 30px black
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="Animasi">
+        <h1 class="inset"><strong>Mochamad Bagus Vicky Wichaksono - 18610053</strong></h1>
     </div>
 </body>
 
